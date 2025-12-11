@@ -1,0 +1,14 @@
+services:
+  # Backend API Service (json-server)
+  - type: web
+    name: fitness-planner-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm run start:api
+    envVars:
+      - key: NODE_ENV
+        value: production
+    # Note: Frontend must be deployed separately as a Static Site in Render dashboard
+    # After backend deploys, get the URL and set VITE_API_URL in frontend service
+
