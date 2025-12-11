@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "serve:json": "json-server --watch db.json --port 3000",
-    "start:api": "node server.js"
+    "start:api": "node server.cjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.1.1",
