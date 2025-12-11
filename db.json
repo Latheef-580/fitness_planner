@@ -1,0 +1,62 @@
+{
+  "workouts": [
+    {
+      "id": 1,
+      "title": "Full Body Strength",
+      "duration": "45 mins",
+      "exercises": "Squat, Bench Press, Deadlift"
+    },
+    {
+      "id": 2,
+      "title": "Upper Body Hypertrophy",
+      "duration": "50 mins",
+      "exercises": "Pull-ups, Rows, Shoulder Press"
+    },
+    {
+      "title": "powerlifting",
+      "duration": "40mins",
+      "exercises": "benchpress, squats, dead lift",
+      "id": 3
+    }
+  ],
+  "meals": [
+    {
+      "id": 1,
+      "name": "High Protein Breakfast",
+      "calories": 520,
+      "items": "Oats, Eggs, Milk"
+    },
+    {
+      "id": 2,
+      "name": "Post-Workout Meal",
+      "calories": 650,
+      "items": "Chicken, Rice, Vegetables"
+    },
+    {
+      "name": "Supplements",
+      "calories": 0,
+      "items": "Multi-Vitamin Tablets(after Lunch) , CodVel fish oil(After Lunch), glutamine(Before sleeping)",
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Demo User",
+      "email": "demo@fitness.com",
+      "password": "password123"
+    },
+    {
+      "name": "shaik",
+      "email": "shaikabdullatheef580@gmail.com",
+      "password": "123456789",
+      "id": 2
+    },
+    {
+      "name": "Shaik Abdul Latheef",
+      "email": "shaiklatheef098@gmail.com",
+      "password": "123456",
+      "id": 3
+    }
+  ]
+}
