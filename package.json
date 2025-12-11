@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npx vite build",
     "preview": "vite preview",
     "serve:json": "json-server --watch db.json --port 3000",
     "start:api": "node server.cjs"
