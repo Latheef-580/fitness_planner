@@ -61,6 +61,8 @@ git push origin main
    - **Branch**: `main` (or your default branch)
    - **Root Directory**: Leave empty
    - **Build Command**: `npm install && npm run build`
+     - **Alternative if build fails**: `npm install && chmod +x node_modules/.bin/vite && npm run build`
+     - **Or try**: `npm install && node node_modules/vite/bin/vite.js build`
    - **Publish Directory**: `dist`
    - **Plan**: Free
 
